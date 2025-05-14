@@ -8,4 +8,4 @@ while True:
         break
     letras = list(palavra)
     random.shuffle(letras)
-    print(f"Baralhadas: {"".join(letras)}")
+    print(f"a palavra baralhada: ".join(letras))
