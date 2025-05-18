@@ -63,7 +63,7 @@ def deletar_tarefa():
             print("Número de tarefa inválido")
             return
         
-        tarefa_a_deletar = tarefas.pop(tarefa_num)
+        tarefa_a_deletar = tarefas.pop(tarefa_num-1)
         print(f"Tarefa '{tarefa_a_deletar["titulo"]}' deletada com sucesso!")
     except ValueError:
         print("Por favor insira um numero valido")

@@ -11,7 +11,7 @@ def boas_vindas():
 
 def obter_escolha_usuario():
     while True:
-        print(f"\n Faça a sua escoha:")
+        print(f"\n Faça a sua escolha:")
         print("1. Pedra")
         print("2. Papel")
         print("3. Tesoura")
