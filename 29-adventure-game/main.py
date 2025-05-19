@@ -109,7 +109,7 @@ def comprar_item(nome_item):
         return
 
     if jogador["ouro"] >= item["preco"]:
-        jogador["ouro" -= item["preco"]]
+        jogador["ouro"] -= item["preco"]
 
         if nome_item not in jogador["items"]:
             jogador["items"].append(nome_item)
